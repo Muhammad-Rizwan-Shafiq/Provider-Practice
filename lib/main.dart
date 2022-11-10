@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:providerpractice/custom_bottom_navigation.dart';
+
 import 'package:providerpractice/providers/auth_provider.dart';
 import 'package:providerpractice/providers/count_provider.dart';
 import 'package:providerpractice/providers/favourite_provider.dart';
 import 'package:providerpractice/providers/slider_provider.dart';
-import 'package:providerpractice/screens/count_screen.dart';
-import 'package:providerpractice/screens/favourite/favourite_screen.dart';
+
 import 'package:providerpractice/screens/login.dart';
-import 'package:providerpractice/screens/slider_screen.dart';
-import 'dashboard_screen.dart';
+
+
 
 void main() {
   runApp(const MyApp());
